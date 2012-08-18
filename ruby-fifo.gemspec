@@ -11,6 +11,7 @@ Gem::Specification.new {|s|
     s.description   = s.summary
     s.files         = Dir['lib/*']
     s.extensions    = 'ext/mkrf_conf.rb'
+    s.add_dependency('mkfifo')
     s.require_path  = 'lib'
     s.has_rdoc      = true
 }
